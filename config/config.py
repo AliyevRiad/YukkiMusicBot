@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "27804609"))
-API_HASH = getenv("e27685923fc24e08591caff39e764bbd")
+API_ID = int(getenv("API_ID", "23470912"))
+API_HASH = getenv("33ac02b7891c5396e6b305802d56cf4f")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("8140148011:AAEh9bAjxG9BDugscHFj9zUYeZQm7nlKCA0")
+BOT_TOKEN = getenv("8025984970:AAE48m0S5uGdxsN0Z6VxJyZSvRt9_YzJcQM")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -37,21 +37,20 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002555195124"))
-
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002894584465"
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MediaMusicRobot")
+MUSIC_BOT_NAME = getenv("𝗘𝘅𝗽𝗲𝗿𝘁 𝗠𝘂𝘀𝗶𝗰 𝄞")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "8085531180").split())
+    map(int, getenv("OWNER_ID", "7800338935").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HRKU-AAwNu2aaHv0TKXSUaUJ6gxk_XODl79TyKs0giLl-RsFQ_____wx11gGHU63r")
+HEROKU_API_KEY = getenv("HRKU-AAwNu2aaHv0TKXSUaUJ6gxk_XODl79TyKs0giLl-RsFQ_wx11gGHU63r")
 
 # You have to Enter the app name which you gave to identify your  Music Bot in Heroku.
-HEROKU_APP_NAME = getenv("mediamusic")
+HEROKU_APP_NAME = getenv("Music")
 
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
@@ -66,10 +65,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/TheYukki
+)  # Example:- https://t.me/QrupBotlari
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
-)  # Example:- https://t.me/YukkiSupport
+)  # Example:- https://t.me/QrupBotlari
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -138,7 +137,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("AgGoQ8EAhROe59XFVxpThZ0zUhi-aGztAmBN9DjNvxa91IezZSqzvP8yg1BBXFT6qcUr5XEfnyVsjrgh399eLZmNzfRsw2oZwCA-yhcH0ruVgZ5ddZpdNfzII3Xa36AejzLSKr_52mMwJLpgdMMcOp93faeX0aDWeksfU5GiQJA20G9OqECHmcp0MF79SIkYxEfXu00Bvxv5628zQ-h-KTIQzu7dFH4o_Ucp6IDYJJYmmE3DS5AIfAB5NQzCsP_brG2g8gPXsDFdHckdY26yzEwKknPx6izsMioT6rnlRt967_hTbqqnz5xr5A_NeV3b170LGhaIg89KOHMprgbnyLjdJvBYBAAAAAF3bZQuAA", true )
+STRING1 = getenv("AgGxsmQAlM1JXKjlZaxqhKj4IkD2kBtAxAQzJOsEbZTPWp4lpaBMa2Y4qmkWYrUHGqaft8Xc4slJyc8wl95R4CZ-XqrDJ885xLm3bfoUUKXN5K1nqdz1D0R_uz_yEjv2-yIr6xmBoFlnKdR4zm5vXnNcfAVauW9PoHtpxfcoQFqsDumHCkf-hEZ4GsmwjwnBm4fuvKJWemZ_CbYvSvaQfS7DVhv-_EDeEjNNpGuW0KBA6IfhoaSyq2hJuBSnmae3aaycOV4WT-d7Q5HMkiY9hi69D7aWgn9lQOpInatk1FmRmUmbgcK8z6lklKsCkiG8E1HFL12fNkD4szfa7UeRIOWE9MKbWQAAAAHPZJ1eAA", true )
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
